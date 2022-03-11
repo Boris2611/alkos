@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Kurale', serif;
+}
+
+video {
+    width: 100%;
+    position: absolute;
+}
+
+#video_from {
+    position: absolute;
+    color:  white;
+    bottom: 0;
+    left: 20px;
+    font-size: small;
+    color: #7777;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box {
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid rgb(2, 1, 1);
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+
+.alert {
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+      display: none;
+    }
+  }
