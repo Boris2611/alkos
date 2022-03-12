@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_alko_test.css">
+    <link rel="stylesheet" href="css/hamburger_menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ПОЧЕТНА</title>
+</head>
+<body>
+    
+<nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+      
+      <ul id="menu">
+        <a href="main.html"><li>ПОЧЕТНА</li></a>
+        <br>
+        <a href="alkotest.html"><li>ALKO TEST</li></a>
+        <a href="#"><li>МУЗИКА</li></a>
+        <a href="#"><li>BOT</li></a>
+        <br>
+        <a href="#"><li>ЛОГИН</li></a>
+        <a href="#"><li>РЕГИСТРАЦИЈА</li></a>
+      </ul>
+    </div>
+  </nav>
+
+<div class="center">
+
+  <h1 class="naslov">Sta se pije?</h1>
+
+
+</div>
+
+
+  <div class="lista">
+
+    <ul>
+        <li><h2 onclick="pokazi_piva()">Piva:</h2>
+            <ul id="piva">
+                <li>
+                    <input name="niksicko" type="checkbox">
+                    <label id="niksicko" for="niksicko">Niksocko</label>
+                </li>
+                <li>
+                    <input name="tuborg" type="checkbox">
+                    <label id="tuborg" for="tuborg">Tuborg</label>
+                </li>
+                <li>
+                    <input name="lav" type="checkbox">
+                    <label id="lav" for="lav">Lav</label>
+                </li>
+
+            </ul>
+        </li>
+
+
+        <li><h2 onclick="pokazi_rakije()">Rakije:</h2>
+            <ul id="rakije">
+                <li>
+                    <input name="loza" type="checkbox">
+                    <label id="loza" for="loza">Loza</label>
+                </li>
+                <li>
+                    <input name="sljiva" type="checkbox">
+                    <label id="sljiva" for="sljiva">Sljiva</label>
+                </li>
+                <li>
+                    <input name="kruska" type="checkbox">
+                    <label id="kruska" for="kruska">Kruska</label>
+                </li>
+            
+            </ul>
+        </li>
+
+        <li><h2 onclick="pokazi_vina()">Vina:</h2>
+            <ul id="vina">
+                <li>
+                    <input name="belo" type="checkbox">
+                    <label id="belo" for="belo">Belo</label>
+                </li>
+                <li>
+                    <input name="crno" type="checkbox">
+                    <label id="crno" for="crno">Crno</label>
+                </li>
+               
+            
+            </ul>
+        </li>
+    </ul>
+
+  </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

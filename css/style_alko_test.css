@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.naslov {
+    margin-top: 40px;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#piva, #rakije, #vina {
+    display: none;
+}
