@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
 * {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -8,4 +10,10 @@
                                   supported by Chrome and Opera */
 
                                   
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-family: 'Kurale', serif;
 }

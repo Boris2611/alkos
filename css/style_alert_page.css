@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
-
 body {
     margin: 0;
     background-color: black;
     font-family: 'Kurale', serif;
-}
+  }
 
 video {
     width: 100%;

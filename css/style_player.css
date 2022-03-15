@@ -1,0 +1,30 @@
+body {
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#song_image {
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    
+    background-color: #999;
+    
+}
+
+.left_button, .right_button {
+    position: absolute;
+    
+
+}
+
+.right_button {
+    top: 350px;
+    right: 0px;
+}
+
