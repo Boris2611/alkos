@@ -9,6 +9,8 @@ const check_age = () => {
 
 
 
+// -------- Kalkulator Alkohola -----
+
 let brojac1 = 0;
 let brojac2 = 0;
 let brojac3 = 0;
@@ -44,4 +46,37 @@ const pokazi_vina = () => {
     else {
         document.getElementById("vina").style.display = "block";
     }
+};
+
+
+
+// ------- Music Player ---------
+
+// Songs
+
+let song = new Audio('media/music/1.mp3')
+
+
+
+
+const previous_song = () => {
+    song.play();
+};
+
+let pause_counter = 1
+const pause_song = () => {
+    pause_counter += 1
+    if(pause_counter % 2 != 0){
+        song.pause();
+    }
+    else {
+        song.play()
+    }
+    
+};
+
+const next_song = () => {
+    song.pause();
+    song = new Audio('media/music/2.mp3')
+    song.play();
 };

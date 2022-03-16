@@ -17,14 +17,20 @@ body {
     
 }
 
-.left_button, .right_button {
+.left_button, .right_button{
     position: absolute;
-    
 
 }
+
+
 
 .right_button {
     top: 350px;
     right: 0px;
+}
+
+.button {
+    margin: 100px;
+    margin-top: 50px;
 }
 

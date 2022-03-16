@@ -38,22 +38,22 @@
     <div class="center">
 
     <div id="song_image"></div>
-    
+      
     </div>
 
-    <div class="left_button">
-        <h1>Nazad</h1>
+    <div onclick="previous_song()" class="left_button button">
+        <h1><<</h1>
+    </div>
+
+    <div onclick="pause_song()" class="pause center button">
+        <h1 id="pause_icon">II</h1>
+    </div>
+
+    <div onclick="next_song()" class="right_button button">
+        <h1>>></h1>
     </div>
 
 
-
-    <div class="pause center">
-        <h1>Pauza</h1>
-    </div>
-
-    <div class="right_button">
-        <h1>Napred</h1>
-    </div>
-
+    <script src="main.js"></script>
 </body>
 </html>
